@@ -1,4 +1,4 @@
-- Increment a list of numbers `<CTRL-V>g<CTRL-A>` will create a sequence of
+- Increment a list of numbers? `<CTRL-V>g<CTRL-A>` will create a sequence of
   increasing numbers e.g. before:
   ```
   1.
