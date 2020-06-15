@@ -14,7 +14,7 @@
   4.
   ```
 - Execute an `ex` command from the shell? The following command removes
-  trailing whitespace from <FILE> without entering `vim`.
+  trailing whitespace from `<FILE>` without entering `vim`.
   ```
   % vim -e -c '%s/\s\+$//g' -c 'wq' <FILE>
   ```
