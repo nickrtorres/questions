@@ -3,7 +3,7 @@ This is an incomplete, always in progress collection of questions about Rust.
 - Why does a recursive type need indirection?
 
 - Why does a scope exit not dropped an exclusive reference?
-  ```
+  ```rust
   struct Bop;
   struct Foo;
 
