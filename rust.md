@@ -47,4 +47,46 @@ fn run<'a>() {
 
 fn main() {}
 ```
+  - This reuse of the lifetime 'a seems problematic. Introducing a second
+    lifetime seems to fix the problem.
+```rust
+struct Bop;
+struct Foo;
+
+struct Bar<'a> {
+    objs: Vec<&'a Foo>,
+}
+
+impl<'a> Bar<'a> {
+    fn call(&mut self, _: Bop) {}
+}
+
+struct Baz<'a, 'foo> {
+    bar: &'a mut Bar<'foo>,
+}
+
+impl<'a, 'foo> Baz<'a, 'foo> {
+    fn new(bar: &'a mut Bar<'foo>) -> Self {
+        Baz { bar }
+    }
+
+    fn call(&mut self, _: &Bop) {}
+}
+
+fn run() {
+    let bop = Bop {};
+    let mut foo = Foo {};
+
+    let mut bar = Bar { objs: Vec::new() };
+    bar.objs.push(&foo);
+
+    let mut baz = Baz::new(&mut bar);
+    baz.call(&bop);
+
+    bar.call(bop);
+}
+
+fn main() {}
+
+```
 
