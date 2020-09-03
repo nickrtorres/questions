@@ -1,0 +1,20 @@
+- What is the difference between an add9 and a 9 chord? (e.g. Cadd9 v. C9)?
+    - A Cadd9 is a C major triad with an added 9th and without a 7th.
+    - A C9 is a C major triad with a minor 7th and a major 9th. Maybe this is called a C dominant 7th with a major 9th
+    - A Cmaj9 is a C major triad with a major 7th and a major 9th. Maybe it’s called a C major seventh with a major 9th.
+- How long do accidentals last on sheet music?
+    - An accidental lasts for one measure. After that, the accidental is ‘removed’. It’s possible to ‘cancel’ the accidental before the end of a measure with a natural symbol.
+- What is ‘enharmonic’?
+    - “Notes. that are spelled differently but sound the same are said to be enharmonic” - Tonal Harmony
+- What is a secondary dominant chord?
+    - A secondary dominant chord is a dominant chord outside of the current key that “tonicizes” the next chord. Great reference: https://youtu.be/-Pg_bcdEmo8
+- What is a tritone?
+    - tri: three / tone: whole step == three whole steps
+        - e.g. C => F#; D => G#; E => A#; F => B; etc.
+- What is “perfect” voice leading?
+    - Keep common tones (common notes) between chords where they are
+    - Move non-common tones as little as possible
+    - e.g. I VI I V  in C: C root position => F major second inversion => C root position => G first inversion
+    - ref: https://youtu.be/k41MApkna3I
+- How are secondary diminished chords different from secondary dominant chords?
+- Why can you omit the 5th in 7th chords?
