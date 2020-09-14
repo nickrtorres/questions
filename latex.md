@@ -8,5 +8,5 @@
 
 * **Why are quotation marks the wrong way?**
 
-    TeX wants quotes written as `\`\`` and `''` for opening and closing
-    quotations, respectively.
+    TeX wants quotes written as <code>``</code> and <code>''</code> for opening
+    and closing quotations, respectively.
